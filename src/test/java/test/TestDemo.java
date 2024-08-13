@@ -36,7 +36,7 @@ public class TestDemo {
 
     @After
     public void cleanUp() {
-//        driver.quit();
+        driver.quit();
         System.out.println("Test concluded");
     }
 
